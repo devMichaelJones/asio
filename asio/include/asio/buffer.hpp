@@ -595,7 +595,7 @@ private:
  * boost::array<char, 128> d4;
  * bytes_transferred = sock.receive(asio::buffer(d4)); @endcode
  *
- * In all three cases above, the buffers created are exactly 128 bytes long.
+ * In all four cases above, the buffers created are exactly 128 bytes long.
  * Note that a vector is @e never automatically resized when creating or using
  * a buffer. The buffer size is determined using the vector's <tt>size()</tt>
  * member function, and not its capacity.

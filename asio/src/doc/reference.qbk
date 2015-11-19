@@ -50818,7 +50818,7 @@ An individual buffer may be created from a builtin array, std::vector, std::arra
 
 
 
-In all three cases above, the buffers created are exactly 128 bytes long. Note that a vector is ['never] automatically resized when creating or using a buffer. The buffer size is determined using the vector's `size()` member function, and not its capacity.
+In all four cases above, the buffers created are exactly 128 bytes long. Note that a vector is ['never] automatically resized when creating or using a buffer. The buffer size is determined using the vector's `size()` member function, and not its capacity.
 
 
 [heading Accessing Buffer Contents]
